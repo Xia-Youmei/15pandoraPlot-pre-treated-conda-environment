@@ -1,0 +1,289 @@
+==> 2023-08-17 21:33:55 <==
+# cmd: /home/xiaym/anaconda3/bin/conda create -n sports python=3.5
+# conda version: 22.9.0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::certifi-2016.2.28-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::openssl-1.0.2l-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pip-9.0.1-py35_1
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::python-3.5.4-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::readline-6.2-2
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::setuptools-36.4.0-py35_1
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::sqlite-3.13.0-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::tk-8.5.18-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::wheel-0.29.0-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::xz-5.2.3-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::zlib-1.2.11-0
+# update specs: ['python=3.5']
+==> 2023-08-17 21:38:33 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install Bowtie=1.2.1.1
+# conda version: 22.9.0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::bowtie-1.2.1.1-py35pl5.22.0_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-5.2.0-0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libstdcxx-ng-13.1.0-hfd8a6a1_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::perl-5.22.0.1-0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2019.3-h2d50403_0
+# update specs: ['bowtie=1.2.1.1']
+==> 2023-08-17 21:38:33 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install cutadapt=1.11
+# conda version: 22.9.0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::bowtie-1.2.1.1-py35pl5.22.0_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-5.2.0-0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libstdcxx-ng-13.1.0-hfd8a6a1_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::perl-5.22.0.1-0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2019.3-h2d50403_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.11-py35_0
+# update specs: ['cutadapt=1.11']
+==> 2023-08-17 21:40:42 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install -c bioconda sra-tools=2.8.2
+# conda version: 22.9.0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.11-py35_0
++bioconda/linux-64::sra-tools-2.8.2-h550f44e_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-ng-13.1.0-he5830b7_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgomp-13.1.0-he5830b7_0
+# update specs: ['sra-tools=2.8.2']
+==> 2023-08-18 08:55:49 <==
+# cmd: /home/xiaym/anaconda3/bin/conda remove cutadapt
+# conda version: 22.9.0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::bowtie-1.2.1.1-py35pl5.22.0_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-7.2.0-h69d50b8_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libstdcxx-ng-13.1.0-hfd8a6a1_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::perl-5.22.0.1-0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2020.2-h4bd325d_4
+# remove specs: ['cutadapt']
+==> 2023-08-18 08:57:23 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install cutadapt
+# conda version: 22.9.0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.18-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/noarch::xopen-0.7.3-py_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::bz2file-0.98-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pigz-2.3-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::system-5.8-2
+# update specs: ['cutadapt']
+==> 2023-08-18 08:58:01 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install r-base=3.5.1
+# conda version: 22.9.0
+-bioconda/linux-64::sra-tools-2.8.2-h550f44e_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.18-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/noarch::xopen-0.7.3-py_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-7.2.0-h69d50b8_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2020.2-h4bd325d_4
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::bz2file-0.98-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::openssl-1.0.2l-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pigz-2.3-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::python-3.5.4-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::readline-6.2-2
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::sqlite-3.13.0-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::system-5.8-2
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::tk-8.5.18-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::xz-5.2.3-0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.11-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::binutils_impl_linux-64-2.36.1-h193b22a_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::bwidget-1.9.14-ha770c72_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ca-certificates-2023.7.22-hbcca054_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::cairo-1.16.0-hcf35c78_1003
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::expat-2.5.0-hcb278e6_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::fontconfig-2.14.0-h8e229c2_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::freetype-2.10.4-h0708190_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gcc_linux-64-7.5.0-h47867f9_33
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gettext-0.21.1-h27087fc_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::glib-2.68.4-h9c3ff4c_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::graphite2-1.3.13-h58526e2_1001
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gsl-2.5-h294904e_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gxx_impl_linux-64-7.5.0-h64c220c_13
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gxx_linux-64-7.5.0-h555fc39_33
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::harfbuzz-2.4.0-h9f30f68_3
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::icu-64.2-he1b5a44_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::jpeg-9e-h0b41bf4_3
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::krb5-1.16.4-h2fd8d38_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ld_impl_linux-64-2.36.1-hea4e1c9_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libblas-3.9.0-8_openblas
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libcurl-7.68.0-hda55be3_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libexpat-2.5.0-hcb278e6_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libffi-3.3-h58526e2_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-5.2.0-0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran4-7.5.0-h14aa051_20
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libiconv-1.17-h166bdaf_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libssh2-1.10.0-ha56f1ee_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libwebp-base-1.3.1-hd590300_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libxml2-2.9.10-hee79883_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::make-4.3-hd18ef5c_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ncurses-6.4-hcb278e6_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::openssl-1.1.1v-hd590300_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pango-1.42.4-h7062337_4
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pcre-8.45-h9c3ff4c_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pixman-0.38.0-h516909a_1003
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::r-base-3.5.1-hc461eb7_1012
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::readline-8.2-h8228510_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2019.3-h2d50403_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tk-8.6.11-h27826a3_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tktable-2.10-hb7b940f_3
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-kbproto-1.0.7-h7f98852_1002
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libice-1.1.1-hd590300_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libsm-1.2.4-h7391055_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libx11-1.7.2-h7f98852_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libxext-1.3.4-h0b41bf4_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libxrender-0.9.10-h7f98852_1003
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-renderproto-0.11.1-h7f98852_1002
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-xextproto-7.3.0-h0b41bf4_1003
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-xproto-7.0.31-h7f98852_1007
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xz-5.2.6-h166bdaf_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/noarch::_r-mutex-1.0.1-anacondar_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/noarch::kernel-headers_linux-64-2.6.32-he073ed8_16
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::libxcb-1.12-1
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/linux-64::python-3.5.6-h12debd9_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::binutils_linux-64-2.36-hf3e587d_33
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gcc_impl_linux-64-7.5.0-hda68d29_13
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gfortran_impl_linux-64-7.5.0-h56cb351_20
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gfortran_linux-64-7.5.0-h78c8a43_33
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::glib-tools-2.68.4-h9c3ff4c_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libcblas-3.9.0-8_openblas
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran-ng-7.5.0-h14aa051_20
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libglib-2.68.4-h3e27bee_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libopenblas-0.3.12-pthreads_hb3c22a3_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libpng-1.6.37-h21135ba_2
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libtiff-4.2.0-hf544144_3
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::lz4-c-1.9.3-h9c3ff4c_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::sqlite-3.36.0-h9cd32fc_2
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::zstd-1.5.0-ha95c52a_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch::sysroot_linux-64-2.12-he073ed8_16
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::curl-7.26.0-1
+# update specs: ['r-base=3.5.1']
+==> 2023-08-18 10:31:23 <==
+# cmd: /home/xiaym/anaconda3/bin/conda remove r-base
+# conda version: 22.9.0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.11-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::binutils_impl_linux-64-2.36.1-h193b22a_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::bwidget-1.9.14-ha770c72_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::cairo-1.16.0-hcf35c78_1003
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::expat-2.5.0-hcb278e6_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::fontconfig-2.14.0-h8e229c2_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::freetype-2.10.4-h0708190_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gcc_linux-64-7.5.0-h47867f9_33
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gettext-0.21.1-h27087fc_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::glib-2.68.4-h9c3ff4c_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::graphite2-1.3.13-h58526e2_1001
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gsl-2.5-h294904e_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gxx_impl_linux-64-7.5.0-h64c220c_13
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::gxx_linux-64-7.5.0-h555fc39_33
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::harfbuzz-2.4.0-h9f30f68_3
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::icu-64.2-he1b5a44_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::jpeg-9e-h0b41bf4_3
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::krb5-1.16.4-h2fd8d38_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ld_impl_linux-64-2.36.1-hea4e1c9_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libblas-3.9.0-8_openblas
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libcurl-7.68.0-hda55be3_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libexpat-2.5.0-hcb278e6_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libffi-3.3-h58526e2_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-5.2.0-0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran4-7.5.0-h14aa051_20
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libiconv-1.17-h166bdaf_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libssh2-1.10.0-ha56f1ee_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libwebp-base-1.3.1-hd590300_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libxml2-2.9.10-hee79883_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::make-4.3-hd18ef5c_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ncurses-6.4-hcb278e6_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::openssl-1.1.1v-hd590300_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pango-1.42.4-h7062337_4
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pcre-8.45-h9c3ff4c_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::pixman-0.38.0-h516909a_1003
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::r-base-3.5.1-hc461eb7_1012
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::readline-8.2-h8228510_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2019.3-h2d50403_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tk-8.6.11-h27826a3_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tktable-2.10-hb7b940f_3
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-kbproto-1.0.7-h7f98852_1002
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libice-1.1.1-hd590300_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libsm-1.2.4-h7391055_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libx11-1.7.2-h7f98852_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libxext-1.3.4-h0b41bf4_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-libxrender-0.9.10-h7f98852_1003
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-renderproto-0.11.1-h7f98852_1002
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-xextproto-7.3.0-h0b41bf4_1003
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xorg-xproto-7.0.31-h7f98852_1007
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::xz-5.2.6-h166bdaf_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/noarch::_r-mutex-1.0.1-anacondar_1
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/noarch::kernel-headers_linux-64-2.6.32-he073ed8_16
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::libxcb-1.12-1
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/linux-64::python-3.5.6-h12debd9_1
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::binutils_linux-64-2.36-hf3e587d_33
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gcc_impl_linux-64-7.5.0-hda68d29_13
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gfortran_impl_linux-64-7.5.0-h56cb351_20
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::gfortran_linux-64-7.5.0-h78c8a43_33
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::glib-tools-2.68.4-h9c3ff4c_0
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libcblas-3.9.0-8_openblas
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran-ng-7.5.0-h14aa051_20
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libglib-2.68.4-h3e27bee_0
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libopenblas-0.3.12-pthreads_hb3c22a3_1
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libpng-1.6.37-h21135ba_2
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libtiff-4.2.0-hf544144_3
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::lz4-c-1.9.3-h9c3ff4c_1
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::sqlite-3.36.0-h9cd32fc_2
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::zstd-1.5.0-ha95c52a_0
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch::sysroot_linux-64-2.12-he073ed8_16
+-https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64::curl-7.26.0-1
++bioconda/linux-64::sra-tools-2.8.2-h550f44e_1
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.18-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/noarch::xopen-0.7.3-py_0
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-7.2.0-h69d50b8_2
++https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2020.2-h4bd325d_4
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::bz2file-0.98-py35_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::openssl-1.0.2l-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pigz-2.3-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::python-3.5.4-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::readline-6.2-2
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::sqlite-3.13.0-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::system-5.8-2
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::tk-8.5.18-0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::xz-5.2.3-0
+# remove specs: ['r-base']
+==> 2024-01-04 09:33:09 <==
+# cmd: /home/xiaym/anaconda3/bin/conda install -c conda-forge conda-pack
+# conda version: 22.9.0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::ca-certificates-2023.7.22-hbcca054_0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::certifi-2016.2.28-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::openssl-1.0.2l-0
++conda-forge/linux-64::ca-certificates-2023.11.17-hbcca054_0
++conda-forge/linux-64::certifi-2016.9.26-py35_0
++conda-forge/linux-64::openssl-1.0.2u-h516909a_0
++https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/noarch::conda-pack-0.6.0-pyhd3eb1b0_0
+# update specs: ['conda-pack']
+==> 2024-01-04 11:18:35 <==
+# cmd: /home/xiaym/anaconda3/bin/conda uninstall libgomp
+# conda version: 22.9.0
+-bioconda/linux-64::sra-tools-2.8.2-h550f44e_1
+-conda-forge/linux-64::certifi-2016.9.26-py35_0
+-conda-forge/linux-64::openssl-1.0.2u-h516909a_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::bowtie-1.2.1.1-py35pl5.22.0_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/linux-64::cutadapt-1.18-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/noarch::xopen-0.7.3-py_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-7.2.0-h69d50b8_2
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-ng-13.1.0-he5830b7_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libgomp-13.1.0-he5830b7_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::libstdcxx-ng-13.1.0-hfd8a6a1_0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::perl-5.22.0.1-0
+-https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/linux-64::tbb-2020.2-h4bd325d_4
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::bz2file-0.98-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pigz-2.3-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::pip-9.0.1-py35_1
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::python-3.5.4-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::readline-6.2-2
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::setuptools-36.4.0-py35_1
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::sqlite-3.13.0-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::system-5.8-2
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::tk-8.5.18-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::wheel-0.29.0-py35_0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::xz-5.2.3-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/linux-64::zlib-1.2.11-0
+-https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/noarch::conda-pack-0.6.0-pyhd3eb1b0_0
+# remove specs: ['libgomp']
